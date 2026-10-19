@@ -1,0 +1,277 @@
+id,ticket,expected_category,expected_urgency,why_its_tricky
+1,"Feedback on Project Reports
+
+Lately, the project reports have been showing inaccurate data visualization. Efforts to refresh the data sources have not been successful.",product support,low,from HF dataset
+2,"Details of SaaS Billing and Payment Methods
+
+Customer Support, I am interested in integrating SaaS solutions with Microsoft Office 365 and WooCommerce. Could you provide detailed information on billing and payment options? I would like to know about the available plans, pricing structures, and any potential discounts. Additionally, I would appreciate details on how the billing process functions and the accepted payment methods. Please provide a comprehensive overview of the billing and payment options to help me make an informed decision. Thank you for your assistance. I look forward to your response.",billing and payments,high,from HF dataset
+3,"Report of Technical Issue Encountered Today
+
+Customer Support, I am submitting a report regarding a technical problem with the data analytics platform used for investment optimization. The platform suddenly experienced a significant drop in performance, which we suspect may be linked to a recent system update. Our team attempted to troubleshoot the issue by restarting services and clearing caches, but unfortunately, these efforts did not resolve the problem. The performance decline is severely affecting our ability to analyze data and optimize investments, so we urgently require assistance to address this matter. Could you please investigate the issue?",technical support,high,from HF dataset
+4,"Dear Customer Support, I am writing to request an enhancement in the integration of Salesforce CRM data analytics tools. The current integration is limited and does not provide the level of detail required for optimized investment tracking and reporting. I would like to see advanced features such as automated data syncing, customizable dashboards, and real-time reporting. These enhancements would enable our team to make more informed decisions and improve overall performance. I believe these enhancements would be a valuable addition to the platform. Thank you for your attention.",it support,high,from HF dataset
+5,"Support for the Investment Optimization Tool
+
+Dear Customer Support,<br>There are problems with the investment optimization tool we are using. The tool is not generating accurate predictions, which might be due to outdated data in Magento. We have tried updating the data feeds and restarting the analytics service, but the issue still persists.<br>Could you please assist us in resolving this issue? We would greatly appreciate any guidance on how to update the data and troubleshoot the problem. Please let us know if you need any additional information from us.<br>Thank you for your help.",customer service,low,from HF dataset
+6,"Alert on Data Breach
+
+Customer Support, we are reporting a serious issue involving a detected data breach in our hospital's systems that has compromised patient medical records. Initial investigation indicates the breach may be due to outdated security protocols. We have reviewed system logs and conducted vulnerability scans, but the issues remain unresolved. We are concerned about the potential consequences and would greatly appreciate immediate assistance in resolving this matter. Please let us know the next steps as soon as possible.",technical support,high,from HF dataset
+7,"Network Connection Problem
+
+The organization is facing connectivity disruptions with Cisco Webex Meetings due to WLAN router issues, potentially caused by network congestion. Actions taken include restarting the router, verifying connections, and updating the software. Despite these efforts, problems persist. We seek guidance on the next steps to resolve this matter and restore proper network function. Kindly inform us if further information is required.",it support,medium,from HF dataset
+8,"Medical Support Assistance
+
+Detected multiple unauthorized access attempts targeting the hospital's systems, specifically impacting Oracle Database 19c devices.",it support,medium,from HF dataset
+9,"Customer Inquiry on Digital Strategies
+
+Customer Support, seeking assistance with digital strategies for brand growth. Could you provide details on methods and techniques to enhance brand awareness and engagement? Particularly interested in learning about social media and content marketing approaches. Appreciate your prompt assistance and look forward to hearing back soon.",customer service,medium,from HF dataset
+10,"customer support, facing challenges with report issue while uploading project files. During the upload attempt, users encounter an error indicating the file format is incompatible. Despite executing multiple troubleshooting steps such as clearing the cache, updating software, and testing different browsers, the issue remains unresolved. The problem might be due to a lack of support for specific file types, possibly related to PHP 8.0 misconfiguration. I would greatly appreciate your assistance in resolving this issue which is hindering our progress.",customer service,medium,from HF dataset
+11,"Request for Updating Software Integrations
+
+Dear Customer Support, I am submitting a request to enhance the optimization of software integrations on our SaaS platform. We are currently facing challenges with integration compatibility, which are impacting the overall platform performance. I would like the team to review the existing integrations to ensure they are seamlessly compatible with third-party products. This would significantly enhance the user experience and minimize errors. Please inform me of the next steps feasible for this process.",technical support,high,from HF dataset
+12,"PyCharm Crashes on Ubuntu 22.04 LTS
+
+I am encountering frequent crashes of PyCharm Professional 2021.1 while running data analytics scripts. The crashes might be due to compatibility issues with Ubuntu 22.04 LTS. Despite updating the software drivers, the issue still persists. The crashes happen randomly, and I am unable to identify a specific pattern that triggers them. I would greatly appreciate any assistance in resolving this issue, as it is significantly impacting my productivity. Please let us know if there are any known issues or workarounds that could help solve the problem.",technical support,high,from HF dataset
+13,"Assistance Requested for Data Encryption Issue
+
+Hello Support Team, I need assistance with a data encryption error that has been occurring. The error message 'Data encryption failed' is shown, and it seems a misconfiguration might be the reason. After attempting to restart the servers and review the logs, the issue still exists. I would be very grateful if you could assist in solving this problem. Please inform me if you require more details from me to help resolve this. Thank you for your support and I look forward to your feedback.",technical support,high,from HF dataset
+14,System conflicts have impacted the security of medical data and the stability of the hospital due to errors in software integration.,technical support,medium,from HF dataset
+15,"Online Expansion
+
+Customer Support, I am reaching out to inquire about marketing agency services that utilize integrated digital strategies to enhance brand growth. Could you please provide detailed information on the various services offered that can be tailored to meet the specific needs of a brand? I am particularly interested in understanding your approach to digital marketing, including social media management, content development, and campaign optimization. Additionally, I would appreciate details on the metrics used to evaluate campaign success and how these measurements can be adapted.",product support,high,from HF dataset
+16,"Security Solutions for Medical Data Systems
+
+Could you please share the details of the available security solutions for medical data in a hospital setting? We are in search of a comprehensive solution to protect patient-sensitive information.",billing and payments,low,from HF dataset
+17,"Information on Pricing Plans
+
+I am interested in learning about the project management SaaS offerings. Could you provide details on the pricing plans available, including any trial options? I would like to know about the features and benefits of each plan, as well as any discounts or promotions that may be available. This information will help me make an informed decision on whether the SaaS is the right fit for my needs.",product support,low,from HF dataset
+18,"I am submitting a request to optimize digital tools to enhance our brand growth strategies and improve team collaboration within the agency. This would involve streamlining communication channels, automating repetitive tasks, and implementing project management software. The goal is to increase efficiency, productivity, and overall performance.",it support,medium,from HF dataset
+19,"Guidelines for Secure Medical Data with Kaspersky
+
+Customer Support, we are reaching out to inquire about securing medical data using Kaspersky Internet Security 2021 in a hospital IT environment. Could you provide detailed guidelines to ensure the security of sensitive medical information and protect patient data from cyber threats while ensuring compliance with regulations? We need step-by-step instructions on configuring Kaspersky Internet Security 2021 for the hospital's infrastructure. Thank you for your assistance.",it support,high,from HF dataset
+20,"Payment Options for Medical Data Security Services
+
+I would like to know what payment options are available for your medical data security services. Could you please provide details on the payment methods you accept?",billing and payments,low,from HF dataset
+21,"Data Security Weakness in Hospital Networks
+
+Hospital networks are facing possible data security weaknesses due to obsolete security measures. Despite applying patch updates and running system scans, the problem remains unresolved. Immediate assistance is required to address this issue.",customer service,low,from HF dataset
+22,"Unexpected Data Encryption Failure Appeared Abruptly Today
+
+Hello Customer Support, I am contacting you to report an unexpected data encryption failure that has appeared. This might be due to a software glitch. Despite restarting the servers, the problem remains unresolved. Could you please look into this matter urgently and provide a solution at your earliest convenience? If there is any additional information you need from me to help resolve the issue, please let me know. Thank you for your time and assistance. I am looking forward to your prompt response.",technical support,high,from HF dataset
+23,"Concerns with Digital Campaign
+
+Dear Customer Support, we are drawing your attention to a pressing matter concerning our recent digital campaign. Despite our efforts to optimize ad placements and messaging, the campaign continues to face significant performance issues. We suspect that server misconfigurations or software compatibility conflicts might be the root cause of the problem. After a thorough analysis of the campaign metrics, the issue still persists. We would greatly appreciate your assistance in resolving this matter so that the campaign can get back on track.",product support,high,from HF dataset
+24,"Issue with Incorrect Invoice Totals Due to Billing System Glitch
+
+I am encountering issues with incorrect invoice totals due to a billing system glitch. Despite my attempts to resolve the issue by restarting, re-logging in, and re-syncing data, the problem has not been resolved. I would greatly appreciate your assistance in addressing this matter as soon as possible.",billing and payments,medium,from HF dataset
+25,"Investments Data Analytics Tool Unexpectedly Crashed
+
+The investments data analytics tool abruptly crashed. It could be due to incompatible software updates. I have restarted the system, verified for updates, and turned off the antivirus, but the problem still exists.",technical support,high,from HF dataset
+26,"Digital marketing tools experienced unexpected failure
+
+The tools have stopped working correctly; there might be an issue with the API key.",it support,medium,from HF dataset
+27,"Unauthorized Access Attempts Detected in Healthcare Provider's Systems
+
+Our systems for healthcare providers have detected unauthorized access attempts. Despite updating passwords and strengthening firewalls, the issues continue. Immediate support is needed to secure medical data effectively. Assistance is required to resolve this issue as soon as possible to prevent further breaches.",product support,medium,from HF dataset
+28,"Upgrade Software Integrations
+
+Upgrade for a better experience",customer service,low,from HF dataset
+29,"Problem with OBS Studio and PyCharm Applications
+
+Hello Customer Support, I am facing issues with OBS Studio and PyCharm applications. They keep crashing and becoming unresponsive. Even after updating the applications and restarting my system, the problem continues. I suspect it might be due to conflicting software or insufficient system resources. Could you please assist in resolving this issue? Your guidance on how to troubleshoot and fix the problem would be greatly appreciated. Thank you for your support.",technical support,low,from HF dataset
+30,"Request for Integration with Sage Accounting SaaS Tools
+
+I am submitting a request to integrate Sage Accounting SaaS tools to enhance project management and optimize workflow efficiency. This integration aims to simplify tasks and decrease manual data entry, ultimately boosting productivity and aiding in better decision-making.",it support,low,from HF dataset
+31,"Support for Updating Antivirus Software
+
+I need help in updating the antivirus software on my Lenovo ThinkPad X1 Carbon laptops. The current antivirus software is not working well with our project management tools, leading to errors and affecting our workflow. Could you please guide me on how to fix this and make the software work smoothly with our tools?",it support,medium,from HF dataset
+32,"Strategies for Boosting Brand Awareness and Engagement via Digital Marketing
+
+Hello, we are inquiring about digital marketing strategies to enhance our brand growth. We would greatly appreciate detailed information on methods to increase brand awareness and engagement. Could you provide insights on social media approaches, content creation, and advertising? We look forward to your assistance and hope to hear from you soon.",product support,medium,from HF dataset
+33,"Immediate Attention Needed: Centralized Account Management System Out of Service
+
+Dear Customer Support Team,\n\nI am reaching out to report a critical problem with the Centralized Account Management System. Over the past several hours, the system has been entirely unreachable, greatly hindering our ability to administer user accounts, execute vital administrative functions, and ensure smooth operations across our services.\n\nThis outage is causing major workflow interruptions, preventing us from updating account information, resetting passwords, and synchronizing user data across platforms.",technical support,high,from HF dataset
+34,"Support for Enhancing Team Collaboration with Slack
+
+I am seeking assistance in optimizing Slack for better team collaboration, especially in the context of investment analytics. Could you provide more details on how the platform can be tailored to meet our specific needs and help improve our communication and workflow efficiency? Your guidance and recommendations would be greatly appreciated. Thank you for your assistance.",it support,medium,from HF dataset
+35,"Report of Security Breach in Hospital Systems
+
+A security breach has been detected in the hospital's IT systems. The possible causes include outdated software and inadequate security protocols. Although antivirus scans and system updates have been conducted, they have not resolved the issue. Immediate assistance is required to safeguard the medical data.",technical support,high,from HF dataset
+36,"Customer Support, I am reaching out to request enhancements to our security measures for managing medical data in our hospital systems. Currently, we use Airtable and Bitbucket for data management, and I believe additional security measures are necessary to ensure the confidentiality and integrity of sensitive medical information. I would like to propose the implementation of multi-factor authentication, regular security audits, and encryption for data in transit and at rest. I believe these measures will significantly improve the security of our systems and protect patient data.",product support,medium,from HF dataset
+37,"Support Request for Inconsistent Investment Performance Metrics
+
+Recent data analytics reports indicate discrepancies in investment performance metrics. Possible reasons include software errors or outdated algorithms. After verifying data sources and restarting the analytics software, the issue persists. These inconsistencies are impacting our ability to make informed decisions. We would greatly appreciate if you could look into this matter and provide a solution at your earliest convenience. Please let us know if you need any additional information from us.",technical support,high,from HF dataset
+38,"Enhancing the Efficiency of the User Interface in the Project Management Tool
+
+Customer Support, I am writing to request an update on the user interface of the project management tool. The current interface is confusing and difficult to navigate, which hinders our team's productivity. We would like to suggest some improvements, such as simplifying the dashboard and adding more intuitive menus. These changes would greatly enhance our overall experience and allow us to manage our projects more efficiently. We appreciate your consideration of this request and look forward to hearing from you soon.",technical support,medium,from HF dataset
+39,"Request for Updating Details
+
+I am writing to request an update to my billing details and data analytics subscription. As I recently changed my address, I would like to ensure that all related products reflect this change accurately. Could you please assist in updating the billing information and verify that the related products are updated correctly? I would appreciate it if you could confirm that the changes have been made. Please let me know if there is any additional information needed to complete this request. I look forward to your help and to hearing from you.",billing and payments,low,from HF dataset
+40,"Support for Security Measures
+
+There have been unauthorized access attempts to medical data due to outdated security protocols. Despite implementing updates and monitoring logs, the issues continue. Assistance is requested to resolve the issue and prevent future occurrences.",technical support,high,from HF dataset
+41,"Support for Slowed Data Analytics Tool
+
+Our data analytics tool is experiencing unexpected slowdowns during peak usage hours. This may be due to increased data processing demands and server capacity limits. Despite restarting the tool and monitoring system performance, the issues persist. I would appreciate your assistance in resolving this matter as soon as possible. Could you please provide more details on the peak usage hours and average data processing demands? We can schedule a call at your convenience to discuss and explore possible solutions, such as upgrading server capacity or optimizing system performance. Please let me know a suitable time for the call at <tel_num>.",technical support,low,from HF dataset
+42,"Intermittent Disconnection of Netgear Nighthawk Mesh Wi-Fi 6 System
+
+The Netgear Nighthawk Mesh Wi-Fi 6 System is experiencing intermittent disconnections which seem to be related to network congestion. Despite multiple restarts, the issue persists.",technical support,medium,from HF dataset
+43,"Customer Support, I am reaching out to inquire about data analytics services to enhance investment strategies for financial organizations. Could you provide details on the specific methods and tools you utilize to analyze market trends and forecast outcomes? I would also appreciate it if you could share case studies or success stories demonstrating how financial firms have benefited from your services. Additionally, I am interested in understanding the types of data you collect and how you ensure data accuracy and security. I look forward to learning more about your offerings.",customer service,low,from HF dataset
+44,"Update payment information for Avast SendGrid
+
+Please update your billing details for Avast SendGrid to ensure uninterrupted access to services.",billing and payments,high,from HF dataset
+45,"Scaling a Project Management SaaS Platform
+
+Customer Support is seeking advice on best practices for scaling a project management SaaS within their organization. They request detailed guidance on how to efficiently manage and optimize their existing workflows, aiming to enhance productivity and streamline processes. Specifically, they are interested in strategies for task delegation, team collaboration, and performance monitoring. Additionally, they would appreciate recommendations for integrating SaaS tools and platforms. Thank you for your assistance; they look forward to your response.",product support,medium,from HF dataset
+46,"Dear Customer Support, we are encountering connectivity problems with our SAP ERP data analytics tools, and it might be due to recent updates. We have already restarted the affected applications and checked our network settings, but the issue still persists. We would appreciate your assistance in resolving this issue. Could you please provide us with troubleshooting steps that could help us restore connectivity? Thank you for your support and time.",it support,medium,from HF dataset
+47,"Recently, users have reported slow performance, which may be due to increased server load following recent updates. We have cleared caches and optimized database queries, but the issue still persists.",customer service,medium,from HF dataset
+48,"Urgent Security Issue
+
+A security breach has been detected in the hospital's infrastructure, which could potentially compromise medical data due to outdated software vulnerabilities. Despite attempting to update security protocols, the issue persists.",technical support,medium,from HF dataset
+49,"Support Required for Enhancing Investment Analytics Optimization
+
+I am keen on learning how to optimize investment analytics using MongoDB 4.4 and data integration tools. Could you provide details on how to efficiently integrate and analyze large datasets? I would greatly appreciate some guidance on best practices and how to avoid potential pitfalls.",it support,high,from HF dataset
+50,"Healthcare System Data Breach Alert
+
+Customer Support has received a report from a healthcare provider regarding a possible data access vulnerability. The issue appears to be due to outdated security measures that may have compromised medical records. Although initial patches were implemented in an attempt to fix the problem, the vulnerability still exists. We are concerned about the potential impact of this breach and request assistance in investigating and resolving the issue promptly. Your guidance and support in ensuring the system's security are greatly appreciated.",it support,medium,from HF dataset
+51,"Problems with Excel Investment Analysis Tool
+
+Hello Customer Support, recently the investment analysis tool in Excel 2021 has been unresponsive when processing large datasets. This might be due to memory overload or software compatibility issues. I have already restarted my PC, cleared the cache, and updated the software, but the issue still persists. I would greatly appreciate any assistance in resolving this matter as it is impacting my work. Please let me know if there are additional steps I need to take and what specific information you require from me.",technical support,medium,from HF dataset
+52,"Concern Over Sudden Drop in Website Traffic
+
+Noticing a sharp decline in website traffic and engagement. This might be due to recent algorithm changes. Despite attempts to analyze traffic patterns and implement SEO strategies, the issue continues. Our team is monitoring the situation closely, and we would greatly appreciate any assistance or guidance to help us resolve the issue and improve website performance.",technical support,medium,from HF dataset
+53,"Challenge with Data Integration
+
+A financial company has encountered data integration issues across various platforms, which is impeding their investment optimization processes. Recent software updates might have impacted compatibility. Rebooting devices and clearing caches resolved similar issues in the past. Assistance is needed to address this matter.",it support,medium,from HF dataset
+54,"Assistance Needed for Enhancing Investment Strategies
+
+Dear Customer Support, I am inquiring about the data analytics services available to improve investment strategies. Could you provide detailed information on the types of analytics offered and how they are applied to investment decisions? I would also appreciate guidance on how to get started with these services and the support you provide to clients. Additionally, I am interested in understanding the benefits of using data analytics for optimizing investments. Thank you, and I look forward to your prompt response.",customer service,low,from HF dataset
+55,"Asana SaaS Support Team Inquiry
+
+Could offer comprehensive details on integrating the Asana SaaS project management solution? Your assistance would be greatly appreciated.",customer service,medium,from HF dataset
+56,"customer support, addressing a suspected data breach in the hospital's system. Despite implementing initial measures such as updating firewalls and resetting passwords, the breach continues, and critical systems remain compromised. It's possible that outdated security protocols have contributed to the issue. We kindly request your assistance in resolving this matter as soon as possible to prevent further damage. Please inform us of the next steps and your preferred method of communication. We appreciate your prompt attention to this urgent matter and look forward to your response.",it support,high,from HF dataset
+57,"Secure Medical Data on Apple MacBook Air Devices
+
+I am contacting you to learn about the encryption techniques utilized to safeguard medical data on Apple MacBook Air devices. I am keen to know the extent of protection these techniques offer and if they comply with requisite standards for managing sensitive medical information. Could you share more details on this, including any pertinent documentation or resources? I am grateful for any advice you can give on maintaining the security and privacy of medical data on these devices. Thank you for your time and support.",technical support,high,from HF dataset
+58,"Boost User Interaction
+
+Customer Support, addressing the request to enhance integration capabilities for various applications within the project management SaaS. The objective is to improve user experience by enabling seamless interactions across different tools. This would allow users to access multiple applications from a single platform, thereby streamlining workflows and increasing productivity. We believe this enhancement would be a significant step towards providing an intuitive and efficient experience for users.",customer service,low,from HF dataset
+59,"Dear Customer Support, I am seeking information on digital marketing strategies for brands in the gaming and tech sectors. Could you provide details on the services you offer and how they can benefit a business? I am particularly interested in learning about your approach to social media management, content creation, and influencer partnerships. Additionally, I would like to know about any success stories you have with brands in these industries. I look forward to hearing back and learning how your services can help my business grow.",billing and payments,medium,from HF dataset
+60,"Guidance on Securing Medical Data in Docker Django
+
+Customer Support, <br>I am reaching out to seek guidance on securing medical data for our hospital's system. We are currently using Docker Django 3.2 and would like to know best practices to ensure the confidentiality, integrity, and availability of sensitive patient information. <br>Could you provide recommendations for implementing robust security measures, such as encryption, access controls, and regular backups? I would appreciate advice on how to comply with relevant regulations, such as HIPAA. <br>Additionally, I would like to know more about specific configurations for Docker Django.",it support,medium,from HF dataset
+61,"Integration of LG PF50KA Projector
+
+Customer Support, regarding inquiry on integrating the LG PF50KA projector with a project management SaaS platform. Could you provide more information on how to achieve this integration? I would like to know the steps involved and the requirements that need to be met. Specifically, do we need to use any APIs or software development kits (SDKs)? I am particularly keen on learning how this can enhance our team's productivity and collaboration. The LG PF50KA portable projector offers high-quality images and wireless connectivity.",technical support,high,from HF dataset
+62,"Healthcare Provider Data Breach
+
+A data breach has been detected, which could expose patient information. The incident might have occurred due to outdated security protocols and software vulnerabilities. Initial efforts to resolve the issue involved conducting security audits and updating software, but the problem persists. Immediate investigation and action are required to protect sensitive information and prevent future breaches.",billing and payments,medium,from HF dataset
+63,"Assistance Required for Integrating Wolfram Mathematica into Project Management SaaS
+
+Customer Support, we are inquiring about integrating the Wolfram Mathematica project management SaaS platform into an ongoing project. The project necessitates advanced computational capabilities, and we believe Mathematica could be a great tool for this purpose. However, we are unsure about how to integrate it into our platform. Could you provide some guidance on this? We would greatly appreciate any documentation, tutorials, or support resources that you can offer. Specifically, we would like to know about the APIs and plugins that are available to facilitate this integration. We look forward to hearing from you.",technical support,high,from HF dataset
+64,"Request for Azure Infrastructure Upgrade
+
+I am writing to request an upgrade to our Azure infrastructure. Our digital marketing campaigns and data analytics are expanding rapidly, and our current setup is having trouble keeping up with the growing demands. To ensure smooth operation, we require an increase in storage capacity and computing power to manage the increased workload. Could you kindly provide us with a quote and a timeline for the upgrade? Additionally, could you offer any specific recommendations for optimizing our infrastructure for our particular use case?",it support,medium,from HF dataset
+65,"Delay in Data Analytics for Investment Company
+
+The investment organization experienced delays in data analytics processing.",technical support,medium,from HF dataset
+66,"Security Breach of Medical Records
+
+Customer Support,<br> I am writing to highlight an urgent issue concerning the security of the hospital's medical information. Regrettably, the security of our system has been breached, likely due to a vulnerability in the VPN network. To address the problem, I have attempted to resolve it by rebooting the affected devices and updating their firmware. Despite these actions, the issue remains unresolved.<br> I am worried about the possible repercussions of this breach and seek your assistance.",product support,medium,from HF dataset
+67,"Assistance with Optimizing Integration of Various Products in SaaS Platform for Seamless Project Management
+
+We are seeking customer support for assistance in optimizing the integration of various products within our SaaS platform to achieve seamless project management. Our team is currently facing challenges navigating through multiple tools and platforms, which is adversely affecting our productivity and efficiency. We believe that a streamlined and integrated approach would significantly enhance our workflow and overall project outcomes. Specifically, we are requesting help in integrating project planning, time tracking, and collaboration tools.",product support,medium,from HF dataset
+68,"Boost Brand Growth Tactics
+
+Is it possible to get more information on digital strategies that can boost brand growth, including the use of Slack and Salesforce CRM to enhance customer engagement and sales pipeline?",billing and payments,high,from HF dataset
+69,"Problem with Sound Card
+
+During project meetings, audio cuts intermittently using ClickUp ASUS Xonar AE Soundkarte. It might be due to driver conflicts or resource limitations. I have tried updating the drivers, adjusting sound settings, and restarting the devices, but the issue still persists. I would appreciate assistance in resolving this issue.",technical support,high,from HF dataset
+70,"The laptop analytics software unexpectedly crashed, causing interference with investment analysis. Potential causes include software conflicts or hardware malfunctions. Attempts to resolve included rebooting devices, updating applications, and verifying network connectivity, but the issue persists.",it support,medium,from HF dataset
+71,"Enhancements for Medical Data Security Protocols
+
+Requesting improvements to security protocols for managing medical data across hospital systems affecting various products. It is essential to protect sensitive patient information to prevent potential data breaches. I would greatly appreciate it if you could address this matter urgently and provide a plan of action to address these concerns. Please inform me if any additional information is needed.",product support,medium,from HF dataset
+72,"Guidelines for Securing Patient Data in Hospital Systems
+
+Could you provide guidelines for securing patient data across our affected hospital systems? We need practices for data encryption, access control, and backup procedures to ensure compliance with regulations and protect sensitive information.",product support,low,from HF dataset
+73,"Request for Pricing of Zoho Books Integration
+
+Hello Customer Support, I am reaching out to inquire about the pricing for integrating Zoho Books into our project management SaaS. Could you please provide a detailed breakdown of the costs involved? I would like to know about any additional fees associated with setup, maintenance, and support. Additionally, I am interested in knowing if there are any discounts available for long-term commitments or bulk subscriptions. I am also keen on learning more about the features and benefits of the integration and how it can enhance our overall project management experience. Could you provide any case studies or testimonials from existing customers as well? Thank you for your assistance.",billing and payments,high,from HF dataset
+74,"Performance Delay in Project Dashboards
+
+Dear Customer Support, recently, our team has been experiencing lag while accessing project dashboards. This issue may be due to increased user traffic. Despite optimizing backend queries and checking server performance, the problem continues to persist. The lag is causing delays and disrupting our workflow, and we would greatly appreciate it if you could look into this matter urgently and provide a solution to resolve the issue. Please let us know if there is any additional information needed to further investigate. Available for a call at <tel_num> to discuss.",product support,medium,from HF dataset
+75,"Reported Malfunction of Multiple Devices
+
+Dear Customer Support, I am contacting you to report a significant issue that has occurred with multiple devices malfunctioning simultaneously. This problem has emerged without any prior warning and is impacting several devices essential for our daily operations. Having done some initial troubleshooting, we suspect that the root cause may be a software compatibility issue. We have already attempted to resolve the situation by restarting the systems and ensuring all available updates are installed, but to no avail. We are now turning to your team in the hopes of receiving more specialized assistance to diagnose and address the problem. We would greatly appreciate any guidance or support you can offer to help us restore our devices to proper functioning. The specific details of the issue are as follows: Multiple devices have stopped working concurrently, and we believe the issue is related to software compatibility. We have tried restarting and updating the systems, but the problem continues. Thank you for your attention to this matter. We look forward to your prompt response. Sincerely, [Your Name]",it support,medium,from HF dataset
+76,"Inquiry About Shopware Integrations with Google Cloud Platform and Microsoft Azure Services
+
+Hello Customer Support, I am writing to inquire about the integrations available for Shopware with Google Cloud Platform and Microsoft Azure services. I am currently using Shopware as my e-commerce platform and I am interested in exploring the integration possibilities with Google Cloud Storage, Google Cloud Functions, and Microsoft Azure Storage. Could you please provide me with a list of available integrations and their descriptions? Additionally, I would appreciate any information on how to set up and configure these integrations, particularly Google Cloud Storage and Functions, and Azure Storage. I would also like to know if there are any plans to release new integrations in the future. Could you please inform me about any limitations or restrictions on the use of these integrations? I would greatly appreciate any guidance or support you can offer. I look forward to your response. Best regards, [Your Name]",technical support,high,from HF dataset
+77,"Support for Integrating Alteryx with SAP ERP for Enhanced Investment Analytics
+
+Dear [Your Name],\n\nThank you for reaching out to our support team regarding the integration of Alteryx with SAP ERP to enhance your investment analytics capabilities. We would be happy to provide general guidance and recommend checking our knowledge base, articles, and tutorials available on our website. For more tailored assistance, please provide details about your current setup and the steps you are taking to achieve the integration. We would prefer to discuss this further over the phone for your convenience, and you can reach us at [tel_num].\n\nLooking forward to hearing back from you to explore how Alteryx can enhance your investment analytics capabilities.\n\nThank you for your time and assistance.\nSincerely, [Your Name]",customer service,low,from HF dataset
+78,"Request for Alteryx Support
+
+Is it possible to get detailed information on how Alteryx can be utilized to enhance digital marketing strategies? We are keen on learning how its capabilities can aid in improving our marketing efforts and would greatly appreciate any guidance or resources provided.",it support,medium,from HF dataset
+79,"Issues with Delayed Load Times Noted
+
+Customers are encountering delays when accessing the project dashboard. This might be linked to heightened server traffic. Despite clearing the cache and optimizing database queries, the problem continues. We need to look into this promptly to hopefully enhance user satisfaction.",product support,low,from HF dataset
+80,"Concern Regarding SaaS Platform Connectivity
+
+Customer Support, we are encountering connectivity problems with the SaaS platform, which includes several integrated applications. This may be due to recent updates causing compatibility conflicts. We have already cleared our browser caches, reinstalled the affected applications, and tested different network connections, but the issues still persist. The problems seem to have started after the latest update and appear to be affecting multiple users. We would greatly appreciate it if you could look into this matter urgently and provide a solution or workaround to resolve the issue. Please let",it support,high,from HF dataset
+81,"Declining Social Media Engagement
+
+Customer Support, a marketing agency, is encountering difficulties with low engagement in social media campaigns. It is possible that the issue stems from an ineffective targeting strategy and content approach. To date, we have analyzed current analytics and adjusted posting times, but without seeing any significant improvement. We are concerned that the message is not reaching the intended audience, which is causing a decline in engagement metrics. We would greatly appreciate any guidance or recommendations that could help us improve our social media engagement. Specifically, we are seeking advice on this.",customer service,low,from HF dataset
+82,"Dear customer support, it is imperative to bring to your attention the importance of enhancing security protocols in our medical data management systems within the healthcare environment. Patient privacy is our top priority and is crucial to taking measures to protect sensitive information from unauthorized access. This includes implementing robust firewalls, encryption methods, and secure data storage solutions to ensure the confidentiality and integrity of patient data, thereby maintaining trust and upholding the highest standards of care.",it support,medium,from HF dataset
+83,"Technical Support Inquiry for System Outages
+
+A marketing agency has encountered system outages impacting vital digital strategies owing to server overload from increased traffic. After restarting servers and clearing caches, the issues continue. Urgent assistance is required to resolve this matter.",technical support,high,from HF dataset
+84,"Exploring Payment Alternatives for Digital Marketing Services
+
+I would like to gather more information on the payment alternatives available for digital marketing services. Could you kindly share a list of the accepted payment methods and any related payment conditions?",billing and payments,medium,from HF dataset
+85,"Request for Assistance with Marketing Team's PostgreSQL Access
+
+Hello Customer Support, the marketing team is experiencing difficulties accessing brand analytics through PostgreSQL. This issue might be due to recent system updates that have impacted database connections. After verifying network settings and rebooting the server, the problem still persists. We have confirmed that the database credentials are correct. The issue appears to be related to the recent system updates. We would greatly appreciate it if you could look into this matter and provide a solution as soon as possible. Please let us know if there is any additional information needed.",technical support,low,from HF dataset
+86,"Server Crash Issue
+
+We experienced an unexpected server crash attributed to high traffic. After restarting the server and reviewing the logs, the problem still persists. Could you please offer your assistance to resolve this issue?",technical support,high,from HF dataset
+87,"Improve Security of Medical Data
+
+Drafting a request to upgrade security protocols for medical data within hospital systems across various software and hardware platforms. It is essential to protect sensitive patient information and prevent potential data breaches. I would appreciate it if robust security measures such as encryption and firewalls could be implemented to secure medical data. Furthermore, applying regular security updates and patches will help maintain system security. I look forward to hearing about the steps taken in this regard.",technical support,medium,from HF dataset
+88,"Data Breach Concerns in Medical Records System
+
+We believe a data breach has occurred, with patient records potentially compromised due to printer security vulnerabilities and out-of-date software. We have already performed firewall assessments, Kaspersky virus checks, and password renewals.",technical support,high,from HF dataset
+89,"Urgent: Major System Failure Noted
+
+Customer Support,<br>A major system failure has been observed, impacting several essential applications vital to our digital strategy. This failure might be due to a software conflict. Attempts to reboot the systems and reinstall the affected software have been unsuccessful. Despite these efforts, the issue remains unresolved, causing significant operational disruptions. We urgently require your assistance to resolve this matter to prevent potential losses. Could you please provide guidance on the next steps? A technician's on-site dispatch is also necessary.",it support,high,from HF dataset
+90,"Problem with Login Access
+
+We are encountering sporadic login difficulties with our project management software as a service. It might be related to server overload during peak times. After clearing the cache and monitoring server usage, the issue still persists. Urgent help is needed to address this.",customer service,medium,from HF dataset
+91,"Integration Possibilities for Project Management Tools
+
+Hello Customer Support, I am writing to seek information about the integration capabilities between our project management tools. We currently use a range of tools to handle various aspects of our projects and are seeking to optimize our workflow and enhance efficiency. Could you furnish us with details on the integration options available, along with the steps for implementation? Your insights and recommendations would be greatly appreciated. Specifically, we are interested in integrating with Trello, Asana, and Jira. Thank you for your time and assistance, and we look forward to your response.",customer service,medium,from HF dataset
+92,"Report on Encrypted Medical Data Failure
+
+Dear Support Team,\n\nI am contacting you to address a recent issue with our encrypted medical data. The system has suddenly stopped functioning, preventing us from accessing vital patient information. We believe this might be due to a recent software update that is not compatible with our existing setup. Despite attempts to restart servers and review the logs, the problem persists.\n\nWe would greatly appreciate your assistance in resolving this urgent matter. Please let us know if there are any additional actions we can take or if you require further information from us.\n\nThank you for your prompt attention to this issue.\nSincerely,\n[Your Name]",it support,high,from HF dataset
+93,"Problem with Access to Cloud-Based Tools
+
+Recently, users have encountered intermittent connectivity issues with cloud-based tools. These issues might be due to network instability or high usage. We have attempted to resolve the problem by resetting network connections and troubleshooting individual applications, but the issues still persist. The problems seem to arise randomly without any warning, causing disruptions to the workflow. We would greatly appreciate your assistance in resolving this matter as soon as possible to prevent further disruptions.",it support,low,from HF dataset
+94,"Exploring Digital Strategies for Brand Growth
+
+I am seeking information on digital strategies that contribute to brand growth. Could you provide details on your approach and share relevant case studies? I am interested in learning about strategies that have contributed to the growth of successful brands.",technical support,medium,from HF dataset
+95,"Problem with Access to Patient Data
+
+Our patient data is currently not accessible due to a system crash. This might be due to a software error or an overload on the server. We have attempted to restart the servers and check the backups, but the problem remains unresolved. Immediate help is needed to resolve this issue.",technical support,high,from HF dataset
+96,"Request for Assistance with Netgear Support
+
+I am encountering intermittent connectivity problems with my Netgear Nighthawk Mesh Wi-Fi 6 System. This might be due to network congestion or interference from nearby devices. So far, I have rebooted the router, checked for firmware updates, and rearranged the devices to enhance signal strength. However, the issue still persists. I would greatly appreciate your help in resolving this matter, as it is affecting my daily operations. Could you please provide guidance on further troubleshooting steps and recommend a solution to stabilize the network connection?",it support,medium,from HF dataset
+97,"Concern Regarding Access to Cloud-Based Tools
+
+Recently, there were intermittent connectivity issues with cloud-based tools that the team has been experiencing. This might have been due to network instability or high usage. We have already attempted to reset network connections and troubleshoot individual applications, but the problems continue to occur randomly without warning, disrupting our workflow. We would greatly appreciate your prompt assistance in resolving this matter to prevent further disruptions.",it support,low,from HF dataset
+98,"Digital Campaign Metrics Unexpectedly Vanished Today
+
+Dear Support Team, I hope this message finds you well. I am currently facing an issue with our digital campaign metrics, which unexpectedly vanished. I suspect this might be related to an API integration problem. Despite restarting the analytics tool and verifying the data connectors, the problem remains unresolved. Please help me resolve this issue as quickly as possible since these metrics are essential for our marketing team to evaluate our campaign effectiveness. If you require any further information from me, please let me know. I've double-checked the tool's settings, and they appear to be correctly configured. Looking forward to your prompt response. Thank you for your assistance. Regards, [Your Name]",technical support,high,from HF dataset
+99,"Security Protocols for Hospital IT Networks
+
+Respected Customer Service, I am contacting you to seek information on the security strategies advised for safeguarding medical records within hospital IT networks. Given the critical nature of medical information, it is imperative to ensure its security against any unauthorized access, data breaches, or cyber threats. Could you elucidate the security procedures currently employed to protect such data? Are there any particular methodologies or technological solutions that hospitals should apply? I would also appreciate any materials or advice you can supply on this topic. Thank you for your attention and support. I am eagerly awaiting your response.",customer service,medium,from HF dataset
+100,"Assistance with Investment Portfolio Optimization
+
+Utilize advanced data analytics tools to enhance investment portfolios for financial businesses.",technical support,low,from HF dataset

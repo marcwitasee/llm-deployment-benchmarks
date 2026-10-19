@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# environments and caches
+venv*/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# large or rebuildable data
+*.jsonl
+02-chess/sample*.csv
+*.bak
