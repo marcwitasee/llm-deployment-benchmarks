@@ -1,0 +1,175 @@
+time,model,effort,position,fen,engine_move,model_move,legal,good,best,cp_loss,ttft_s,input_tokens,output_tokens,cost_usd,raw_answer
+2026-10-24T14:03:27,gpt-oss-120b,low,1,r4rk1/1p2qpb1/p1n1p1pp/3pP3/3P4/5N2/PP2NPPP/R2Q1RK1 w - -,a1b1,f3g5,True,False,False,,3.378,277,798,0.00052,f3g5
+2026-10-24T14:03:30,gpt-oss-120b,low,2,rn2k2r/1b1p1ppp/p1q1pn2/1p6/1b1PP3/5N2/PPBNQPPP/R1B1K2R w KQkq -,e1d1,e4e5,True,False,False,,2.784,291,568,0.000384,e4e5
+2026-10-24T14:03:34,gpt-oss-120b,low,3,q3k3/2p2p2/p3pn2/1p1P4/2p3Pr/2N2P2/PP1Q2KP/4R3 b - -,b5b4,h4h2,True,False,False,,4.26,284,946,0.00061,h4h2
+2026-10-24T14:03:40,gpt-oss-120b,low,4,8/5p1k/p6p/1p1P2r1/P1Nb1K2/3R4/1P4P1/8 b - -,g5d5,g5g4,True,False,False,,5.268,290,1171,0.000746,g5g4+
+2026-10-24T14:03:44,gpt-oss-120b,low,5,7r/1p2b1p1/p3p1k1/2BpP3/PP5p/2P1K2P/6P1/5R2 b - -,e7c5,e7g5,True,False,False,,4.373,259,954,0.000611,e7g5
+2026-10-24T14:03:48,gpt-oss-120b,low,6,8/1pk5/1N4R1/P1P2p1p/1K2nP1P/8/8/8 b - -,c7d8,e4c5,True,False,False,,4.209,195,784,0.0005,e4c5
+2026-10-24T14:03:52,gpt-oss-120b,low,7,r2qr1k1/p4pbp/6p1/1QBP4/4n3/2P5/PP3PPP/RN2K2R w KQ -,c5e3,c5a7,True,False,False,,4.055,337,765,0.00051,c5a7
+2026-10-24T14:03:59,gpt-oss-120b,low,8,7k/6p1/p6p/1p1QPp2/1P1Pn3/P3P1P1/2r1q1BP/5R1K w - -,d5e4,d5d8,True,False,False,,6.818,299,1593,0.001001,d5d8
+2026-10-24T14:04:02,gpt-oss-120b,low,9,rnbq1rk1/1ppp1pp1/p2bpn1p/8/2P5/2N1P1P1/PP1PNPBP/R1BQ1RK1 b - -,f8e8,d6e5,True,False,False,,2.999,284,574,0.000387,d6e5
+2026-10-24T14:04:08,gpt-oss-120b,low,10,5rk1/ppp3p1/3p2p1/2PP3q/2P1b3/2R1P1K1/P7/2B3Q1 b - -,f8f3,f8f3,True,True,True,0,5.762,345,1212,0.000779,f8f3
+2026-10-24T14:04:17,gpt-oss-120b,low,11,3rr1k1/4bppp/pn6/Bp6/4BpP1/2P4P/P1P5/R4R1K b - -,d8b8,b6c4,True,False,False,,8.774,298,1496,0.000942,b6c4
+2026-10-24T14:04:21,gpt-oss-120b,low,12,3rr1k1/pp3ppp/8/4P3/4pb2/1P3P1q/PB2B2P/R3QRK1 w - -,f1f2,e5e6,True,False,False,,4.826,281,1026,0.000658,e5e6
+2026-10-24T14:04:27,gpt-oss-120b,low,13,4b3/7p/p3k3/2KN2p1/8/PP4P1/6P1/8 w - -,d5c7,d5c7,True,True,True,0,5.061,212,1200,0.000752,d5c7
+2026-10-24T14:04:31,gpt-oss-120b,low,14,3rr1k1/p3qppp/2p3b1/1p6/Q1n1P3/6P1/PP3PBP/R1B1R1K1 w - -,a4c2,f2f3,True,False,False,,4.61,306,982,0.000635,f2f3
+2026-10-24T14:04:37,gpt-oss-120b,low,15,2rq1rk1/pb3pb1/2n1p1p1/1p2Pn1p/3p1BNP/3P2P1/PP1N1PB1/R2QR1K1 w - -,g4f6,d1f3,True,False,False,,6.06,337,1367,0.000871,d1f3
+2026-10-24T14:04:39,gpt-oss-120b,low,16,r1bqkb1r/pppp1ppp/3n4/1B2n3/8/8/PPPP1PPP/RNBQR1K1 w kq -,b1c3,b5d7,True,False,False,,2.109,302,385,0.000276,b5d7
+2026-10-24T14:04:46,gpt-oss-120b,low,17,2rqk2r/1b1nbppp/p3pn2/1p6/4PB2/P1NB1N2/1PQ2PPP/3R1RK1 w k -,h2h4,c3d5,True,False,False,,6.23,348,1406,0.000896,c3d5
+2026-10-24T14:04:50,gpt-oss-120b,low,18,rr4kb/4p2p/qn1p2pB/2nP4/4P3/1PN2P2/3Q1NP1/1R2K2R b K -,c5b3,a6a1,True,False,False,,4.034,326,871,0.000572,a6a1
+2026-10-24T14:04:55,gpt-oss-120b,low,19,rnb1k2r/ppqp1ppp/5n2/8/4P3/1QN2N2/PP2BKPP/R1B4R b kq -,e8g8,f6e4,True,False,False,,5.407,302,1122,0.000718,f6e4
+2026-10-24T14:05:01,gpt-oss-120b,low,20,rn2kb1r/2qb1ppp/p2ppn2/8/Bp1NP3/2N2Q2/PPP2PPP/R1B2RK1 w kq -,a4d7,c3d5,True,False,False,,5.414,331,1153,0.000741,c3d5
+2026-10-24T14:05:02,gpt-oss-120b,low,21,rnbqkbnr/pppp2pp/4p3/5p2/4P3/3P4/PPP1BPPP/RNBQK1NR b KQkq -,f5e4,d7d5,True,False,False,,1.274,288,232,0.000182,d7d5
+2026-10-24T14:05:05,gpt-oss-120b,low,22,r1b1q3/pp1n1kBp/2p3p1/3Q4/8/1P4P1/P1P2nBP/RN4K1 b - -,e8e6,c6d5,True,False,False,,2.828,181,408,0.000272,c6d5
+2026-10-24T14:05:08,gpt-oss-120b,low,23,2r2rk1/3bqpp1/3p3p/pp6/3Pn3/PB4NP/5PP1/R2QR1K1 b - -,e4f2,d6d5,True,False,False,,3.561,324,747,0.000497,d6d5
+2026-10-24T14:05:11,gpt-oss-120b,low,24,r2qkb1r/pp3ppp/2n1p1n1/2p1P3/3pQ3/N1P2N2/PP1P1PPP/R1B2RK1 w kq -,h2h4,f3g5,True,False,False,,3.076,312,576,0.000392,f3g5
+2026-10-24T14:05:19,gpt-oss-120b,low,25,r3k2r/bpq2p1p/4bp2/nP1p4/3Pp3/2N1N1P1/3QPPBP/1RR3K1 b kq -,a5c4,a5b3,True,False,False,,7.348,332,1579,0.000997,a5b3
+2026-10-24T14:05:21,gpt-oss-120b,low,26,r2qk2r/1p2bp2/2b1p1p1/2P1PnN1/pp1pNP2/3P1BP1/PP6/R3QRK1 w kq -,e1b4,g5e6,True,False,False,,2.339,303,202,0.000167,g5e6
+2026-10-24T14:05:27,gpt-oss-120b,low,27,r1b2rk1/pp2nppp/1b3q2/2pp4/3N1Pn1/1BP1B3/PP2Q1PP/RN3RK1 w - -,g1h1,g4e5,False,False,False,,5.678,328,924,0.000604,g4e5
+2026-10-24T14:05:30,gpt-oss-120b,low,28,rnbqkb1r/pp2pppp/3p1n2/8/4P3/8/PPP2PPP/RNBQKBNR w KQkq -,b1c3,e4e5,True,False,False,,3.047,321,552,0.000379,e4e5
+2026-10-24T14:05:38,gpt-oss-120b,low,29,8/5pk1/6p1/5q1p/1Q5P/6P1/5PK1/8 b - -,f5f6,f5c5,True,False,False,,8.475,256,1930,0.001196,f5c5
+2026-10-24T14:05:43,gpt-oss-120b,low,30,r2q1rk1/pp3p1p/1bn1bp2/4p3/3pP2N/1NP3PP/PP3PB1/R2Q1RK1 w - -,d1e2,d1g4,True,False,False,,4.871,299,982,0.000634,d1g4
+2026-10-24T14:05:48,gpt-oss-120b,low,31,4k1b1/6Q1/4q3/5NpP/6p1/4P3/8/R4BK1 b - -,g8f7,e6e3,True,False,False,,4.946,246,1133,0.000717,e6e3
+2026-10-24T14:05:51,gpt-oss-120b,low,32,r1b1k2r/p1B2ppp/2p5/2b5/8/8/PP3PPP/2KR1B1R b kq -,e8g8,e8g8,True,True,True,0,2.366,280,525,0.000357,e8g8
+2026-10-24T14:05:56,gpt-oss-120b,low,33,2r2k2/6pp/1R6/3r4/p2p4/8/K1PR1PPP/8 b - -,d5g5,c8c2,True,False,False,,5.232,272,872,0.000564,c8c2
+2026-10-24T14:06:00,gpt-oss-120b,low,34,r4rk1/2q2pp1/pnpbp2p/5b2/3P3B/2N2N2/PP3PPP/2RQ1RK1 w - -,f1e1,c3d5,True,False,False,,4.065,303,783,0.000515,c3d5
+2026-10-24T14:06:08,gpt-oss-120b,low,35,1r5k/5Qbp/p5p1/2p5/2P5/2q1PBP1/5PKP/3R4 w - -,f7a7,d1d8,True,False,False,,8.314,338,1537,0.000973,d1d8
+2026-10-24T14:06:18,gpt-oss-120b,low,36,6k1/pbr1qpp1/1p2p2p/3n4/3NP2P/PQ4P1/1P3PB1/3R2K1 b - -,d5f6,e7a3,True,False,False,,9.959,325,2028,0.001266,e7a3
+2026-10-24T14:06:25,gpt-oss-120b,low,37,1rb4Q/2q1kpp1/p1p1p3/3p2P1/4P3/bPN5/P1PB1n2/1K2RB2 b - -,f2g4,c7c1,False,False,False,,7.012,325,1293,0.000825,c7c1
+2026-10-24T14:06:30,gpt-oss-120b,low,38,2rb1rk1/2p2pp1/R2p4/1B3P1p/3Pn3/1P3N1P/P4P2/2R3K1 w - -,g1f1,g1f1,True,True,True,0,5.246,338,1193,0.000767,g1f1
+2026-10-24T14:06:36,gpt-oss-120b,low,39,r3k1nr/ppp2q1p/3bp1p1/8/4P3/2N2Q2/PP3PPP/R1BR2K1 w kq -,f3e2,e4e5,True,False,False,,5.627,324,1230,0.000787,e4e5
+2026-10-24T14:06:41,gpt-oss-120b,low,40,4r2k/pp4p1/2bb4/2p2P2/2P4P/PP4P1/4Q3/3R1RK1 b - -,e8e2,d6e5,True,False,False,,5.307,302,1097,0.000704,d6e5
+2026-10-24T14:06:52,gpt-oss-120b,low,41,2bq1rk1/1r2p2p/5p1Q/1Np5/2P3p1/6R1/1PP3PP/5RK1 b - -,e7e5,d8d7,True,False,False,,10.964,272,2035,0.001262,d8d7
+2026-10-24T14:06:57,gpt-oss-120b,low,42,8/8/2p5/5rpp/P2k4/2R4P/3K4/8 w - -,c3b3,c3d3,True,False,False,,4.704,221,902,0.000574,c3d3
+2026-10-24T14:07:00,gpt-oss-120b,low,43,R7/2r1Np1b/K2p1k1p/3Pp2P/1P2P3/P4P2/8/6R1 b - -,c7e7,h7e4,True,False,False,,2.807,225,619,0.000405,h7e4
+2026-10-24T14:07:05,gpt-oss-120b,low,44,2r5/p2nkppp/1p2p3/4P3/3N1P2/P5P1/1PP1K1P1/3R4 b - -,d7c5,c8c2,True,False,False,,5.267,283,987,0.000635,c8c2
+2026-10-24T14:07:10,gpt-oss-120b,low,45,3r4/P2P3p/5bpk/8/2B2p2/1P3P2/3R2PP/7K b - -,g6g5,d8d7,True,False,False,,5.138,245,864,0.000555,d8d7
+2026-10-24T14:07:15,gpt-oss-120b,low,46,8/8/7p/3Kpk1P/4P3/8/8/8 b - -,f5f4,f5g5,True,False,False,,4.086,161,945,0.000591,f5g5
+2026-10-24T14:07:19,gpt-oss-120b,low,47,8/2r5/8/4kpRp/7P/6P1/8/6K1 w - -,g5h5,g5g8,True,False,False,,4.099,195,900,0.000569,g5g8
+2026-10-24T14:07:22,gpt-oss-120b,low,48,r4r2/ppp2pNp/2k3p1/3RP1b1/2P1p2P/6P1/PPP5/4KR2 b - -,g5e7,g5h4,True,False,False,,3.627,279,617,0.000412,g5h4
+2026-10-24T14:07:25,gpt-oss-120b,low,49,r1bqr1k1/p3bpp1/2p2n1p/4p3/1p6/1P2BPNP/1PP1Q1PN/R3R1K1 b - -,d8c7,e5e4,True,False,False,,2.408,322,462,0.000325,e5e4
+2026-10-24T14:07:29,gpt-oss-120b,low,50,rn3rk1/ppp2ppp/5n2/4q3/2BB2b1/2N5/PPP2PPP/R2Q1RK1 b - -,e5d6,b8c6,True,False,False,,4.32,361,852,0.000565,b8c6
+2026-10-24T14:07:33,claude-opus-5-5,low,1,r4rk1/1p2qpb1/p1n1p1pp/3pP3/3P4/5N2/PP2NPPP/R2Q1RK1 w - -,a1b1,a1c1,True,False,False,,3.679,265,183,0.00472,a1c1
+2026-10-24T14:07:38,claude-opus-5-5,low,2,rn2k2r/1b1p1ppp/p1q1pn2/1p6/1b1PP3/5N2/PPBNQPPP/R1B1K2R w KQkq -,e1d1,e1g1,True,False,False,,5.47,280,409,0.0093,e1g1
+2026-10-24T14:07:44,claude-opus-5-5,low,3,q3k3/2p2p2/p3pn2/1p1P4/2p3Pr/2N2P2/PP1Q2KP/4R3 b - -,b5b4,f6d5,True,False,False,,5.989,271,397,0.009024,f6d5
+2026-10-24T14:08:05,claude-opus-5-5,low,4,8/5p1k/p6p/1p1P2r1/P1Nb1K2/3R4/1P4P1/8 b - -,g5d5,d4c5,True,False,False,,20.676,277,1601,0.033128,d4c5
+2026-10-24T14:08:11,claude-opus-5-5,low,5,7r/1p2b1p1/p3p1k1/2BpP3/PP5p/2P1K2P/6P1/5R2 b - -,e7c5,e7c5,True,True,True,0,6.114,236,424,0.009424,e7c5
+2026-10-24T14:08:22,claude-opus-5-5,low,6,8/1pk5/1N4R1/P1P2p1p/1K2nP1P/8/8/8 b - -,c7d8,c7b8,True,False,False,,11.011,157,723,0.015088,c7b8
+2026-10-24T14:08:27,claude-opus-5-5,low,7,r2qr1k1/p4pbp/6p1/1QBP4/4n3/2P5/PP3PPP/RN2K2R w KQ -,c5e3,e1g1,True,False,False,,4.496,339,263,0.006616,e1g1
+2026-10-24T14:08:36,claude-opus-5-5,low,8,7k/6p1/p6p/1p1QPp2/1P1Pn3/P3P1P1/2r1q1BP/5R1K w - -,d5e4,d5d8,True,False,False,,9.503,288,690,0.014952,d5d8
+2026-10-24T14:08:39,claude-opus-5-5,low,9,rnbq1rk1/1ppp1pp1/p2bpn1p/8/2P5/2N1P1P1/PP1PNPBP/R1BQ1RK1 b - -,f8e8,b8c6,True,False,False,,2.297,276,122,0.003544,b8c6
+2026-10-24T14:08:49,claude-opus-5-5,low,10,5rk1/ppp3p1/3p2p1/2PP3q/2P1b3/2R1P1K1/P7/2B3Q1 b - -,f8f3,f8f3,True,True,True,0,10.348,345,741,0.0162,f8f3
+2026-10-24T14:08:56,claude-opus-5-5,low,11,3rr1k1/4bppp/pn6/Bp6/4BpP1/2P4P/P1P5/R4R1K b - -,d8b8,b6c4,True,False,False,,7.177,289,408,0.009316,b6c4
+2026-10-24T14:09:07,claude-opus-5-5,low,12,3rr1k1/pp3ppp/8/4P3/4pb2/1P3P1q/PB2B2P/R3QRK1 w - -,f1f2,e1f2,True,False,False,,10.48,268,796,0.016992,e1f2
+2026-10-24T14:09:15,claude-opus-5-5,low,13,4b3/7p/p3k3/2KN2p1/8/PP4P1/6P1/8 w - -,d5c7,d5c7,True,True,True,0,8.294,180,588,0.01248,d5c7
+2026-10-24T14:09:21,claude-opus-5-5,low,14,3rr1k1/p3qppp/2p3b1/1p6/Q1n1P3/6P1/PP3PBP/R1B1R1K1 w - -,a4c2,a4b3,True,False,False,,5.461,298,380,0.008792,a4b3
+2026-10-24T14:09:27,claude-opus-5-5,low,15,2rq1rk1/pb3pb1/2n1p1p1/1p2Pn1p/3p1BNP/3P2P1/PP1N1PB1/R2QR1K1 w - -,g4f6,g4e3,True,False,False,,6.705,339,446,0.010276,g4e3
+2026-10-24T14:09:31,claude-opus-5-5,low,16,r1bqkb1r/pppp1ppp/3n4/1B2n3/8/8/PPPP1PPP/RNBQR1K1 w kq -,b1c3,e1e5,True,False,False,,1.118,297,196,0.005108,"This is the Berlin endgame-type line: 1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.Nxe5 Nxe5. White's knight on f3 is gone and Black's knight sits on e5, pinned against the king along the e-file.
+
+The standard move here is 7.Rxe5+. After 7...Be7, play goes 8.Nc3 O-O 9.Bd3, or 8.Bf1. White wins the piece back and keeps an edge.
+
+e1e5"
+2026-10-24T14:09:36,claude-opus-5-5,low,17,2rqk2r/1b1nbppp/p3pn2/1p6/4PB2/P1NB1N2/1PQ2PPP/3R1RK1 w k -,h2h4,c3d5,True,False,False,,1.316,356,318,0.007784,"Two candidates stand out: the knight sacrifice c3d5 and the pawn push e4e5.
+
+**Nd5.** If 1...exd5, then 2.exd5 opens the e-file against the king, still on e8. Black's queen on d8 already covers d5, so the knight would need real follow-up to justify the material. This line is speculative.
+
+**e5.** The pawn attacks the knight on f6. The knight's only safe squares are d5 and g8, since h5, g4 and e4 are covered.
+- 1...Nd5 2.Nxd5 Bxd5 (or exd5). In the Bxd5 line, 3.Qe2 looks fine for White.
+- After the pawn moves, the queen on c2 hits c8 down the open c-file. That rook is defended by the queen on d8, so there is no tactic there.
+
+**Choice.** e4e5 is the solid, sound move, while the sacrifice is unclear, so I'll play e5.
+
+e4e5"
+2026-10-24T14:09:45,claude-opus-5-5,low,18,rr4kb/4p2p/qn1p2pB/2nP4/4P3/1PN2P2/3Q1NP1/1R2K2R b K -,c5b3,c5b3,True,True,True,0,9.305,321,659,0.014464,c5b3
+2026-10-24T14:09:51,claude-opus-5-5,low,19,rnb1k2r/ppqp1ppp/5n2/8/4P3/1QN2N2/PP2BKPP/R1B4R b kq -,e8g8,e8g8,True,True,True,0,6.036,295,409,0.00936,e8g8
+2026-10-24T14:09:57,claude-opus-5-5,low,20,rn2kb1r/2qb1ppp/p2ppn2/8/Bp1NP3/2N2Q2/PPP2PPP/R1B2RK1 w kq -,a4d7,a4d7,True,True,True,0,5.74,339,395,0.009256,a4d7
+2026-10-24T14:10:00,claude-opus-5-5,low,21,rnbqkbnr/pppp2pp/4p3/5p2/4P3/3P4/PPP1BPPP/RNBQK1NR b KQkq -,f5e4,g8f6,True,False,False,,3.216,279,163,0.004376,g8f6
+2026-10-24T14:10:03,claude-opus-5-5,low,22,r1b1q3/pp1n1kBp/2p3p1/3Q4/8/1P4P1/P1P2nBP/RN4K1 b - -,e8e6,c6d5,True,False,False,,2.147,141,88,0.002324,c6d5
+2026-10-24T14:10:08,claude-opus-5-5,low,23,2r2rk1/3bqpp1/3p3p/pp6/3Pn3/PB4NP/5PP1/R2QR1K1 b - -,e4f2,e4g3,True,False,False,,4.925,325,334,0.00798,e4g3
+2026-10-24T14:10:12,claude-opus-5-5,low,24,r2qkb1r/pp3ppp/2n1p1n1/2p1P3/3pQ3/N1P2N2/PP1P1PPP/R1B2RK1 w kq -,h2h4,c3d4,True,False,False,,4.459,307,277,0.006768,c3d4
+2026-10-24T14:10:19,claude-opus-5-5,low,25,r3k2r/bpq2p1p/4bp2/nP1p4/3Pp3/2N1N1P1/3QPPBP/1RR3K1 b kq -,a5c4,c7d6,True,False,False,,6.515,331,446,0.010244,c7d6
+2026-10-24T14:10:27,claude-opus-5-5,low,26,r2qk2r/1p2bp2/2b1p1p1/2P1PnN1/pp1pNP2/3P1BP1/PP6/R3QRK1 w kq -,e1b4,e4d6,True,False,False,,8.002,294,590,0.012976,e4d6
+2026-10-24T14:10:32,claude-opus-5-5,low,27,r1b2rk1/pp2nppp/1b3q2/2pp4/3N1Pn1/1BP1B3/PP2Q1PP/RN3RK1 w - -,g1h1,d4f3,True,False,False,,5.392,329,399,0.009296,d4f3
+2026-10-24T14:10:35,claude-opus-5-5,low,28,rnbqkb1r/pp2pppp/3p1n2/8/4P3/8/PPP2PPP/RNBQKBNR w KQkq -,b1c3,b1c3,True,True,True,0,2.882,321,151,0.004304,b1c3
+2026-10-24T14:10:40,claude-opus-5-5,low,29,8/5pk1/6p1/5q1p/1Q5P/6P1/5PK1/8 b - -,f5f6,f5d5,True,False,False,,5.259,235,329,0.00752,f5d5
+2026-10-24T14:10:46,claude-opus-5-5,low,30,r2q1rk1/pp3p1p/1bn1bp2/4p3/3pP2N/1NP3PP/PP3PB1/R2Q1RK1 w - -,d1e2,h4f5,True,False,False,,5.61,293,349,0.008152,h4f5
+2026-10-24T14:10:55,claude-opus-5-5,low,31,4k1b1/6Q1/4q3/5NpP/6p1/4P3/8/R4BK1 b - -,g8f7,e6f5,True,False,False,,8.803,223,573,0.012352,e6f5
+2026-10-24T14:10:59,claude-opus-5-5,low,32,r1b1k2r/p1B2ppp/2p5/2b5/8/8/PP3PPP/2KR1B1R b kq -,e8g8,e8g8,True,True,True,0,4.086,265,265,0.00636,e8g8
+2026-10-24T14:11:07,claude-opus-5-5,low,33,2r2k2/6pp/1R6/3r4/p2p4/8/K1PR1PPP/8 b - -,d5g5,c8c3,True,False,False,,7.923,258,552,0.012072,c8c3
+2026-10-24T14:11:13,claude-opus-5-5,low,34,r4rk1/2q2pp1/pnpbp2p/5b2/3P3B/2N2N2/PP3PPP/2RQ1RK1 w - -,f1e1,h4g3,True,False,False,,6.22,299,485,0.010896,h4g3
+2026-10-24T14:11:19,claude-opus-5-5,low,35,1r5k/5Qbp/p5p1/2p5/2P5/2q1PBP1/5PKP/3R4 w - -,f7a7,d1d7,True,False,False,,6.33,338,485,0.011052,d1d7
+2026-10-24T14:11:24,claude-opus-5-5,low,36,6k1/pbr1qpp1/1p2p2p/3n4/3NP2P/PQ4P1/1P3PB1/3R2K1 b - -,d5f6,d5f6,True,True,True,0,4.934,322,305,0.007388,d5f6
+2026-10-24T14:11:33,claude-opus-5-5,low,37,1rb4Q/2q1kpp1/p1p1p3/3p2P1/4P3/bPN5/P1PB1n2/1K2RB2 b - -,f2g4,c7e5,True,False,False,,8.802,324,550,0.012296,c7e5
+2026-10-24T14:11:39,claude-opus-5-5,low,38,2rb1rk1/2p2pp1/R2p4/1B3P1p/3Pn3/1P3N1P/P4P2/2R3K1 w - -,g1f1,b5d3,True,False,False,,5.588,338,334,0.008032,b5d3
+2026-10-24T14:11:44,claude-opus-5-5,low,39,r3k1nr/ppp2q1p/3bp1p1/8/4P3/2N2Q2/PP3PPP/R1BR2K1 w kq -,f3e2,f3f7,True,False,False,,5.031,323,355,0.008392,f3f7
+2026-10-24T14:11:47,claude-opus-5-5,low,40,4r2k/pp4p1/2bb4/2p2P2/2P4P/PP4P1/4Q3/3R1RK1 b - -,e8e2,e8e2,True,True,True,0,2.638,292,150,0.004168,e8e2
+2026-10-24T14:11:56,claude-opus-5-5,low,41,2bq1rk1/1r2p2p/5p1Q/1Np5/2P3p1/6R1/1PP3PP/5RK1 b - -,e7e5,d8d4,True,False,False,,8.956,255,595,0.01292,d8d4
+2026-10-24T14:12:00,claude-opus-5-5,low,42,8/8/2p5/5rpp/P2k4/2R4P/3K4/8 w - -,c3b3,c3c6,True,False,False,,4.592,191,297,0.006704,c3c6
+2026-10-24T14:12:06,claude-opus-5-5,low,43,R7/2r1Np1b/K2p1k1p/3Pp2P/1P2P3/P4P2/8/6R1 b - -,c7e7,c7e7,True,True,True,0,5.423,195,324,0.00726,c7e7
+2026-10-24T14:12:10,claude-opus-5-5,low,44,2r5/p2nkppp/1p2p3/4P3/3N1P2/P5P1/1PP1K1P1/3R4 b - -,d7c5,d7c5,True,True,True,0,4.476,267,297,0.007008,d7c5
+2026-10-24T14:12:19,claude-opus-5-5,low,45,3r4/P2P3p/5bpk/8/2B2p2/1P3P2/3R2PP/7K b - -,g6g5,f6e7,True,False,False,,8.867,219,557,0.012016,f6e7
+2026-10-24T14:12:30,claude-opus-5-5,low,46,8/8/7p/3Kpk1P/4P3/8/8/8 b - -,f5f4,f5f6,True,False,False,,11.147,117,795,0.016368,f5f6
+2026-10-24T14:12:34,claude-opus-5-5,low,47,8/2r5/8/4kpRp/7P/6P1/8/6K1 w - -,g5h5,g5h5,True,True,True,0,3.556,159,231,0.005256,g5h5
+2026-10-24T14:12:42,claude-opus-5-5,low,48,r4r2/ppp2pNp/2k3p1/3RP1b1/2P1p2P/6P1/PPP5/4KR2 b - -,g5e7,g5h6,True,False,False,,7.863,264,580,0.012656,g5h6
+2026-10-24T14:12:46,claude-opus-5-5,low,49,r1bqr1k1/p3bpp1/2p2n1p/4p3/1p6/1P2BPNP/1PP1Q1PN/R3R1K1 b - -,d8c7,c8e6,True,False,False,,4.263,318,268,0.006632,c8e6
+2026-10-24T14:12:53,claude-opus-5-5,low,50,rn3rk1/ppp2ppp/5n2/4q3/2BB2b1/2N5/PPP2PPP/R2Q1RK1 b - -,e5d6,g4d1,True,False,False,,6.94,373,441,0.010312,g4d1
+2026-10-24T14:21:19,ember-1,low,1,r4rk1/1p2qpb1/p1n1p1pp/3pP3/3P4/5N2/PP2NPPP/R2Q1RK1 w - -,a1b1,e2f4,True,False,False,,12.798,295,1090,0.017235,e2f4
+2026-10-24T14:21:50,ember-1,low,2,rn2k2r/1b1p1ppp/p1q1pn2/1p6/1b1PP3/5N2/PPBNQPPP/R1B1K2R w KQkq -,e1d1,e4e5,True,False,False,,30.682,307,2465,0.037896,e4e5
+2026-10-24T14:22:31,ember-1,low,3,q3k3/2p2p2/p3pn2/1p1P4/2p3Pr/2N2P2/PP1Q2KP/4R3 b - -,b5b4,f6g4,True,False,False,,40.384,301,3360,0.051303,f6g4
+2026-10-24T14:23:11,ember-1,low,4,8/5p1k/p6p/1p1P2r1/P1Nb1K2/3R4/1P4P1/8 b - -,g5d5,g5d5,True,True,True,0,40.215,307,3380,0.051621,g5d5
+2026-10-24T14:24:47,ember-1,low,5,7r/1p2b1p1/p3p1k1/2BpP3/PP5p/2P1K2P/6P1/5R2 b - -,e7c5,e7g5,True,False,False,,95.717,276,8388,0.126648,e7g5
+2026-10-24T14:25:40,ember-1,low,6,8/1pk5/1N4R1/P1P2p1p/1K2nP1P/8/8/8 b - -,c7d8,c7d8,True,True,True,0,53.063,212,4519,0.068421,c7d8
+2026-10-24T14:25:53,ember-1,low,7,r2qr1k1/p4pbp/6p1/1QBP4/4n3/2P5/PP3PPP/RN2K2R w KQ -,c5e3,e1g1,True,False,False,,13.086,355,1021,0.01638,e1g1
+2026-10-24T14:26:29,ember-1,low,8,7k/6p1/p6p/1p1QPp2/1P1Pn3/P3P1P1/2r1q1BP/5R1K w - -,d5e4,d5a8,True,False,False,,35.583,316,2617,0.040203,d5a8
+2026-10-24T14:26:58,ember-1,low,9,rnbq1rk1/1ppp1pp1/p2bpn1p/8/2P5/2N1P1P1/PP1PNPBP/R1BQ1RK1 b - -,f8e8,b7b5,True,False,False,,28.918,299,2361,0.036312,b7b5
+2026-10-24T14:27:13,ember-1,low,10,5rk1/ppp3p1/3p2p1/2PP3q/2P1b3/2R1P1K1/P7/2B3Q1 b - -,f8f3,f8f3,True,True,True,0,15.059,361,1315,0.020808,f8f3
+2026-10-24T14:27:55,kimi-k3,low,1,r4rk1/1p2qpb1/p1n1p1pp/3pP3/3P4/5N2/PP2NPPP/R2Q1RK1 w - -,a1b1,e2f4,True,False,False,,41.948,295,1355,0.02121,e2f4
+2026-10-24T14:33:04,kimi-k3,low,2,rn2k2r/1b1p1ppp/p1q1pn2/1p6/1b1PP3/5N2/PPBNQPPP/R1B1K2R w KQkq -,e1d1,f3e5,True,False,False,,308.782,307,9296,0.140361,f3e5
+2026-10-24T14:34:25,kimi-k3,low,3,q3k3/2p2p2/p3pn2/1p1P4/2p3Pr/2N2P2/PP1Q2KP/4R3 b - -,b5b4,h4g4,True,False,False,,80.563,301,2525,0.038778,h4g4
+2026-10-24T14:35:28,kimi-k3,low,4,8/5p1k/p6p/1p1P2r1/P1Nb1K2/3R4/1P4P1/8 b - -,g5d5,d4e5,True,False,False,,62.288,307,2156,0.033261,d4e5
+2026-10-24T14:37:11,kimi-k3,low,5,7r/1p2b1p1/p3p1k1/2BpP3/PP5p/2P1K2P/6P1/5R2 b - -,e7c5,e7g5,True,False,False,,103.592,276,3382,0.051558,e7g5
+2026-10-24T14:39:02,kimi-k3,low,6,8/1pk5/1N4R1/P1P2p1p/1K2nP1P/8/8/8 b - -,c7d8,e4d2,True,False,False,,110.461,212,3615,0.054861,e4d2
+2026-10-24T14:39:45,kimi-k3,low,7,r2qr1k1/p4pbp/6p1/1QBP4/4n3/2P5/PP3PPP/RN2K2R w KQ -,c5e3,e1g1,True,False,False,,42.553,355,1379,0.02175,e1g1
+2026-10-24T14:45:19,kimi-k3,low,8,7k/6p1/p6p/1p1QPp2/1P1Pn3/P3P1P1/2r1q1BP/5R1K w - -,d5e4,f1g1,True,False,False,,333.943,316,11429,0.172383,f1g1
+2026-10-24T14:45:48,kimi-k3,low,9,rnbq1rk1/1ppp1pp1/p2bpn1p/8/2P5/2N1P1P1/PP1PNPBP/R1BQ1RK1 b - -,f8e8,f6e4,True,False,False,,28.876,299,934,0.014907,f6e4
+2026-10-24T14:47:57,kimi-k3,low,10,5rk1/ppp3p1/3p2p1/2PP3q/2P1b3/2R1P1K1/P7/2B3Q1 b - -,f8f3,f8f3,True,True,True,0,128.448,361,4474,0.068193,f8f3
+2026-10-24T14:57:05,ember-1,low,11,3rr1k1/4bppp/pn6/Bp6/4BpP1/2P4P/P1P5/R4R1K b - -,d8b8,b6c4,True,False,False,,36.067,314,2948,0.045162,b6c4
+2026-10-24T14:57:16,ember-1,low,12,3rr1k1/pp3ppp/8/4P3/4pb2/1P3P1q/PB2B2P/R3QRK1 w - -,f1f2,g1h1,True,False,False,,10.697,297,816,0.013131,g1h1
+2026-10-24T14:57:30,ember-1,low,13,4b3/7p/p3k3/2KN2p1/8/PP4P1/6P1/8 w - -,d5c7,d5c7,True,True,True,0,13.524,229,1116,0.017427,d5c7
+2026-10-24T14:58:11,ember-1,low,14,3rr1k1/p3qppp/2p3b1/1p6/Q1n1P3/6P1/PP3PBP/R1B1R1K1 w - -,a4c2,c1f4,True,False,False,,40.805,322,3286,0.050256,c1f4
+2026-10-24T14:58:44,ember-1,low,15,2rq1rk1/pb3pb1/2n1p1p1/1p2Pn1p/3p1BNP/3P2P1/PP1N1PB1/R2QR1K1 w - -,g4f6,g2e4,True,False,False,,33.699,354,2735,0.042087,g2e4
+2026-10-24T14:59:20,ember-1,low,16,r1bqkb1r/pppp1ppp/3n4/1B2n3/8/8/PPPP1PPP/RNBQR1K1 w kq -,b1c3,e1e5,True,False,False,,35.114,318,2991,0.045819,e1e5
+2026-10-24T14:59:47,ember-1,low,17,2rqk2r/1b1nbppp/p3pn2/1p6/4PB2/P1NB1N2/1PQ2PPP/3R1RK1 w k -,h2h4,e4e5,True,False,False,,26.774,365,1434,0.022605,e4e5
+2026-10-24T15:00:12,ember-1,low,18,rr4kb/4p2p/qn1p2pB/2nP4/4P3/1PN2P2/3Q1NP1/1R2K2R b K -,c5b3,h8c3,True,False,False,,25.128,343,2031,0.031494,h8c3
+2026-10-24T15:00:13,ember-1,low,19,rnb1k2r/ppqp1ppp/5n2/8/4P3/1QN2N2/PP2BKPP/R1B4R b kq -,e8g8,e8g8,True,True,True,0,1.373,318,55,0.001779,e8g8
+2026-10-24T15:02:01,ember-1,low,20,rn2kb1r/2qb1ppp/p2ppn2/8/Bp1NP3/2N2Q2/PPP2PPP/R1B2RK1 w kq -,a4d7,d4b5,True,False,False,,108.081,349,8827,0.133452,d4b5
+2026-10-24T15:02:08,ember-1,low,21,rnbqkbnr/pppp2pp/4p3/5p2/4P3/3P4/PPP1BPPP/RNBQK1NR b KQkq -,f5e4,d7d5,True,False,False,,6.214,305,463,0.00786,d7d5
+2026-10-24T15:02:14,ember-1,low,22,r1b1q3/pp1n1kBp/2p3p1/3Q4/8/1P4P1/P1P2nBP/RN4K1 b - -,e8e6,c6d5,True,False,False,,6.094,198,501,0.008109,c6d5
+2026-10-24T15:04:45,ember-1,low,23,2r2rk1/3bqpp1/3p3p/pp6/3Pn3/PB4NP/5PP1/R2QR1K1 b - -,e4f2,a5a4,True,False,False,,150.501,340,12576,0.18966,a5a4
+2026-10-24T15:04:55,ember-1,low,24,r2qkb1r/pp3ppp/2n1p1n1/2p1P3/3pQ3/N1P2N2/PP1P1PPP/R1B2RK1 w kq -,h2h4,e4d5,True,False,False,,9.824,329,766,0.012477,e4d5
+2026-10-24T15:06:29,ember-1,low,25,r3k2r/bpq2p1p/4bp2/nP1p4/3Pp3/2N1N1P1/3QPPBP/1RR3K1 b kq -,a5c4,a5c4,True,True,True,0,94.24,349,7745,0.117222,a5c4
+2026-10-24T15:06:55,ember-1,low,26,r2qk2r/1p2bp2/2b1p1p1/2P1PnN1/pp1pNP2/3P1BP1/PP6/R3QRK1 w kq -,e1b4,e4f6,True,False,False,,26.084,319,2081,0.032172,e4f6
+2026-10-24T15:07:30,ember-1,low,27,r1b2rk1/pp2nppp/1b3q2/2pp4/3N1Pn1/1BP1B3/PP2Q1PP/RN3RK1 w - -,g1h1,h2h3,True,False,False,,35.205,344,2578,0.039702,h2h3
+2026-10-24T15:07:34,ember-1,low,28,rnbqkb1r/pp2pppp/3p1n2/8/4P3/8/PPP2PPP/RNBQKBNR w KQkq -,b1c3,g1f3,True,False,False,,3.056,339,183,0.003762,g1f3
+2026-10-24T15:07:48,ember-1,low,29,8/5pk1/6p1/5q1p/1Q5P/6P1/5PK1/8 b - -,f5f6,f5e6,True,False,False,,13.836,273,1085,0.017094,f5e6
+2026-10-24T15:08:07,ember-1,low,30,r2q1rk1/pp3p1p/1bn1bp2/4p3/3pP2N/1NP3PP/PP3PB1/R2Q1RK1 w - -,d1e2,h4f5,True,False,False,,19.727,316,1633,0.025443,h4f5
+2026-10-24T15:09:00,ember-1,low,31,4k1b1/6Q1/4q3/5NpP/6p1/4P3/8/R4BK1 b - -,g8f7,e6f5,True,False,False,,52.706,263,4403,0.066834,e6f5
+2026-10-24T15:09:32,ember-1,low,32,r1b1k2r/p1B2ppp/2p5/2b5/8/8/PP3PPP/2KR1B1R b kq -,e8g8,e8g8,True,True,True,0,31.63,297,2590,0.039741,e8g8
+2026-10-24T15:09:43,ember-1,low,33,2r2k2/6pp/1R6/3r4/p2p4/8/K1PR1PPP/8 b - -,d5g5,c8c2,True,False,False,,10.548,290,827,0.013275,c8c2
+2026-10-24T15:10:18,ember-1,low,34,r4rk1/2q2pp1/pnpbp2p/5b2/3P3B/2N2N2/PP3PPP/2RQ1RK1 w - -,f1e1,h4f6,True,False,False,,34.794,321,2680,0.041163,h4f6
+2026-10-24T15:10:40,ember-1,low,35,1r5k/5Qbp/p5p1/2p5/2P5/2q1PBP1/5PKP/3R4 w - -,f7a7,f7g8,True,False,False,,22.558,355,1742,0.027195,f7g8
+2026-10-24T15:11:08,ember-1,low,36,6k1/pbr1qpp1/1p2p2p/3n4/3NP2P/PQ4P1/1P3PB1/3R2K1 b - -,d5f6,d5f6,True,True,True,0,28.086,342,2297,0.035481,d5f6
+2026-10-24T15:11:30,ember-1,low,37,1rb4Q/2q1kpp1/p1p1p3/3p2P1/4P3/bPN5/P1PB1n2/1K2RB2 b - -,f2g4,c7h2,True,False,False,,21.375,342,1676,0.026166,c7h2
+2026-10-24T15:11:43,ember-1,low,38,2rb1rk1/2p2pp1/R2p4/1B3P1p/3Pn3/1P3N1P/P4P2/2R3K1 w - -,g1f1,b5e8,True,False,False,,13.193,355,1002,0.016095,b5e8
+2026-10-24T15:12:08,ember-1,low,39,r3k1nr/ppp2q1p/3bp1p1/8/4P3/2N2Q2/PP3PPP/R1BR2K1 w kq -,f3e2,f3f7,True,False,False,,24.553,341,1844,0.028683,f3f7
+2026-10-24T15:12:17,ember-1,low,40,4r2k/pp4p1/2bb4/2p2P2/2P4P/PP4P1/4Q3/3R1RK1 b - -,e8e2,e8e2,True,True,True,0,8.844,319,692,0.011337,e8e2
+2026-10-24T15:12:22,ember-1,low,41,2bq1rk1/1r2p2p/5p1Q/1Np5/2P3p1/6R1/1PP3PP/5RK1 b - -,e7e5,f8f7,True,False,False,,5.041,288,340,0.005964,f8f7
+2026-10-24T15:12:34,ember-1,low,42,8/8/2p5/5rpp/P2k4/2R4P/3K4/8 w - -,c3b3,c3c6,True,False,False,,11.989,238,991,0.015579,c3c6
+2026-10-24T15:13:33,ember-1,low,43,R7/2r1Np1b/K2p1k1p/3Pp2P/1P2P3/P4P2/8/6R1 b - -,c7e7,c7e7,True,True,True,0,59.118,242,4726,0.071616,c7e7
+2026-10-24T15:13:52,ember-1,low,44,2r5/p2nkppp/1p2p3/4P3/3N1P2/P5P1/1PP1K1P1/3R4 b - -,d7c5,f7f6,True,False,False,,18.843,299,1580,0.024597,f7f6
+2026-10-24T15:14:08,ember-1,low,45,3r4/P2P3p/5bpk/8/2B2p2/1P3P2/3R2PP/7K b - -,g6g5,d8a8,True,False,False,,15.224,262,1261,0.019701,d8a8
+2026-10-24T15:15:24,ember-1,low,46,8/8/7p/3Kpk1P/4P3/8/8/8 b - -,f5f4,f5f4,True,True,True,0,76.233,178,6378,0.096204,f5f4
+2026-10-24T15:15:37,ember-1,low,47,8/2r5/8/4kpRp/7P/6P1/8/6K1 w - -,g5h5,g5h5,True,True,True,0,13.134,212,1115,0.017361,g5h5
+2026-10-24T15:15:42,ember-1,low,48,r4r2/ppp2pNp/2k3p1/3RP1b1/2P1p2P/6P1/PPP5/4KR2 b - -,g5e7,g5f6,True,False,False,,4.874,296,344,0.006048,g5f6
+2026-10-24T15:15:44,ember-1,low,49,r1bqr1k1/p3bpp1/2p2n1p/4p3/1p6/1P2BPNP/1PP1Q1PN/R3R1K1 b - -,d8c7,e5e4,True,False,False,,1.674,337,88,0.002331,e5e4
+2026-10-24T15:15:55,ember-1,low,50,rn3rk1/ppp2ppp/5n2/4q3/2BB2b1/2N5/PPP2PPP/R2Q1RK1 b - -,e5d6,g4d1,True,False,False,,10.929,378,857,0.013989,g4d1

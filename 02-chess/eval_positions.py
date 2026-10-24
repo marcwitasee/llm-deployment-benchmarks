@@ -25,7 +25,7 @@ import chess
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from chess_prompts import PROMPT
+from chess_prompts import PROMPT, PROMPT_WITH_LEGAL_MOVES, legal_moves_text
 
 sys.path.append("..")  # fallback; bench_log.py is also in this folder
 from bench_log import log_result
@@ -45,23 +45,38 @@ CONFIGS = [
     # ("gpt-oss-120b", "low"),   # done 2026-10-18
     # ("gpt-oss-120b", "high"),   # dropped 2026-10-18: never answered, even with 16,000 tokens (~85s per move)
     # ("accounts/marcwitasee/models/ft-5cua8vpi78cmb#accounts/marcwitasee/deployments/ga3i4qip", "none"),   # 14k fine-tune, done 2026-10-18
-    # 100k fine-tune (deployment billed while up: delete it when this run finishes).
-    ("accounts/marcwitasee/models/ft-s4ety4h6hkltk#accounts/marcwitasee/deployments/qbz6vzj0", "none"),
+    # ("accounts/marcwitasee/models/ft-s4ety4h6hkltk#accounts/marcwitasee/deployments/qbz6vzj0", "none"),   # 73k fine-tune, done 2026-10-19
+    # ("accounts/marcwitasee/deployments/nfi6x4bj", "low"),   # Glimmer 30B untuned, 50 positions, done 2026-10-22 (default effort never finished thinking)
+    # Glimmer 30B fine-tune: paste "accounts/marcwitasee/models/<ft-id>#accounts/marcwitasee/deployments/<id>" below.
+    # Glimmer's lowest reasoning setting is "low" (no "none").
+    # ("accounts/marcwitasee/models/ft-0uzen4wm2ec3x#accounts/marcwitasee/deployments/xrud2iwq", "low"),   # Glimmer 30B fine-tune (73k), done 2026-10-24
+    # Legal-move-list experiment (GIVE_LEGAL_MOVES = True below): serverless models, no deployment needed.
+    # ("gpt-oss-120b", "low"),   # legal list, done 2026-10-24
+    # ("claude-opus-5-5", "low"),   # legal list, done 2026-10-24
+    # Frontier-size open models, serverless ($3 in / $15 out per million tokens). Effort "low" to keep reasoning (and cost) down.
+    ("ember-1", "low"),
+    # ("kimi-k3", "low"),   # 10 positions done 2026-10-24: 1/10 best, ~92s and $0.06 per move. Dropped.
 ]
 
 # Start small: 50 positions x 4 settings is a cheap first look. The full test set is 500.
-N_POSITIONS = 500  # full test set; the frontier baselines used the first 50
+N_POSITIONS = 50  # The frontier baselines used the first 50; the full test set is 500
+
+START_AT_POSITION = 1  # set higher to resume a run that stopped partway
 
 # How much worse than the engine's best move (in hundredths of a pawn) still counts as a "good" move.
 GOOD_MARGIN_CP = 50
 
 MAX_TOKENS = 16000  # thinking counts against this. At 4000, GPT-OSS on high ran out mid-thought and answered nothing
-RESULTS_FILE = "eval_results.csv"
+# Experiment 2: list every legal move in the prompt. Its rows go to their own file so they never mix with plain-prompt rows.
+GIVE_LEGAL_MOVES = True
+RESULTS_FILE = "eval_results_legal.csv" if GIVE_LEGAL_MOVES else "eval_results.csv"
 
 # List prices, dollars per million tokens (input, output)
 PRICES = {
     "claude-opus-5-5": (4.00, 20.00),
     "gpt-oss-120b": (0.15, 0.60),
+    "kimi-k3": (3.00, 15.00),
+    "ember-1": (3.00, 15.00),
 }
 
 claude_client = anthropic.Anthropic()
@@ -105,7 +120,7 @@ def call_fireworks(prompt, effort, model):
         model=model if model.startswith("accounts/") else f"accounts/fireworks/models/{model}",
         max_tokens=MAX_TOKENS,
         messages=[{"role": "user", "content": prompt}],
-        reasoning_effort=effort,
+        **({"reasoning_effort": effort} if effort else {}),  # skip it for models without a reasoning setting
         stream=True,
         stream_options={"include_usage": True},
     )
@@ -179,17 +194,20 @@ def score_move(fen, move, best_move, candidates):
 # ---------------------------------------------------------------------------
 with open("test_positions.csv", newline="") as f:
     positions = list(csv.DictReader(f))[:N_POSITIONS]
+first = START_AT_POSITION  # skip positions an earlier run already did
 
 all_rows = []
 for model, effort in CONFIGS:
-    print(f"\n=== {model} / effort {effort} ===")
+    print(f"\n=== {model} / effort {effort or 'default'} ===")
     call = call_claude if model.startswith("claude") else call_fireworks
     price_in, price_out = PRICES.get(model, (0.0, 0.0))  # a rented GPU has no per-token price
 
     errors_in_a_row = 0
-    for i, p in enumerate(positions, 1):
+    for i, p in enumerate(positions[first - 1:], first):
         try:
-            r = call(PROMPT.format(fen=p["fen"]), effort, model)
+            prompt = (PROMPT_WITH_LEGAL_MOVES.format(fen=p["fen"], legal_moves=legal_moves_text(p["fen"]))
+                      if GIVE_LEGAL_MOVES else PROMPT.format(fen=p["fen"]))
+            r = call(prompt, effort, model)
             errors_in_a_row = 0
         except Exception as e:  # one failed request shouldn't kill the whole run
             print(f"  position {i}: ERROR {e}")
@@ -242,7 +260,7 @@ for model, effort in CONFIGS:
     best = sum(r["best"] for r in rows)
     ttft = statistics.median(r["ttft_s"] for r in rows)
     cost_per_1k = statistics.mean(r["cost_usd"] for r in rows) * 1000
-    name = model.split("#")[0].split("/")[-1] + " / " + effort
+    name = model.split("#")[0].split("/")[-1] + " / " + (effort or "default")
     print(f"{name:<28}{legal:>5}/{n:<3}{good:>5}/{n:<3}{best:>5}/{n:<3}{ttft:>11.2f}s{'$' + format(cost_per_1k, ',.2f'):>15}")
 
 print(f"\nFull details are in {RESULTS_FILE}. To see a position as a board:")
