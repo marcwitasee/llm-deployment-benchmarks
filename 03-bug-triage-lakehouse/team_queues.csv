@@ -1,0 +1,196 @@
+product,component,team
+Core,Audio/Video,Media & WebRTC
+Core,Audio/Video: GMP,Media & WebRTC
+Core,Audio/Video: MediaStreamGraph,Media & WebRTC
+Core,Audio/Video: Playback,Media & WebRTC
+Core,Audio/Video: Recording,Media & WebRTC
+Core,Audio/Video: Web Codecs,Media & WebRTC
+Core,Audio/Video: cubeb,Media & WebRTC
+Core,AutoConfig (Mission Control Desktop),"Accounts, Sync & Install"
+Core,CSS Parsing and Computation,Layout & CSS
+Core,CSS Transitions and Animations,Layout & CSS
+Core,Cycle Collector,Platform Internals
+Core,DLL Services,OS Integration
+Core,DOM: Animation,DOM & Web APIs
+Core,DOM: Bindings (WebIDL),DOM & Web APIs
+Core,DOM: CSS Object Model,DOM & Web APIs
+Core,DOM: Content Processes,DOM & Web APIs
+Core,DOM: Copy & Paste and Drag & Drop,DOM & Web APIs
+Core,DOM: Core & HTML,DOM & Web APIs
+Core,DOM: Credential Management,DOM & Web APIs
+Core,DOM: Device Interfaces,DOM & Web APIs
+Core,DOM: Editor,DOM & Web APIs
+Core,DOM: Events,DOM & Web APIs
+Core,DOM: File,DOM & Web APIs
+Core,DOM: Forms,DOM & Web APIs
+Core,DOM: Geolocation,DOM & Web APIs
+Core,DOM: HTML Parser,DOM & Web APIs
+Core,DOM: Navigation,DOM & Web APIs
+Core,DOM: Networking,DOM & Web APIs
+Core,DOM: Notifications,DOM & Web APIs
+Core,DOM: Performance APIs,DOM & Web APIs
+Core,DOM: Push Subscriptions,DOM & Web APIs
+Core,DOM: Security,Privacy & Security
+Core,DOM: Selection,DOM & Web APIs
+Core,DOM: Serializers,DOM & Web APIs
+Core,DOM: Service Workers,DOM & Web APIs
+Core,DOM: Streams,DOM & Web APIs
+Core,DOM: UI Events & Focus Handling,DOM & Web APIs
+Core,DOM: Web Authentication,Privacy & Security
+Core,DOM: Web Crypto,Privacy & Security
+Core,DOM: Web Payments,DOM & Web APIs
+Core,DOM: Web Share,DOM & Web APIs
+Core,DOM: Window and Location,DOM & Web APIs
+Core,DOM: Workers,DOM & Web APIs
+Core,DOM: postMessage,DOM & Web APIs
+Core,Disability Access APIs,Accessibility
+Core,Find Backend,Platform Internals
+Core,Fuzzing,Platform Internals
+Core,Gecko Profiler,Platform Internals
+Core,Graphics,Graphics
+Core,Graphics: Canvas2D,Graphics
+Core,Graphics: CanvasWebGL,Graphics
+Core,Graphics: Color Management,Graphics
+Core,Graphics: Image Blocking,Graphics
+Core,Graphics: ImageLib,Graphics
+Core,Graphics: Text,Graphics
+Core,Graphics: WebGPU,Graphics
+Core,Graphics: WebRender,Graphics
+Core,Hardware Abstraction Layer (HAL),Platform Internals
+Core,IPC,Platform Internals
+Core,Internationalization,Platform Internals
+Core,Internationalization: Localization,Platform Internals
+Core,JavaScript Engine,JavaScript
+Core,JavaScript Engine: JIT,JavaScript
+Core,JavaScript: Debugger API,JavaScript
+Core,JavaScript: GC,JavaScript
+Core,JavaScript: Internationalization API,JavaScript
+Core,JavaScript: Standard Library,JavaScript
+Core,JavaScript: WebAssembly,JavaScript
+Core,Layout,Layout & CSS
+Core,Layout: Block and Inline,Layout & CSS
+Core,Layout: Columns,Layout & CSS
+Core,Layout: Flexbox,Layout & CSS
+Core,Layout: Floats,Layout & CSS
+Core,Layout: Form Controls,Layout & CSS
+Core,"Layout: Generated Content, Lists, and Counters",Layout & CSS
+Core,Layout: Grid,Layout & CSS
+Core,"Layout: Images, Video, and HTML Frames",Layout & CSS
+Core,Layout: Positioned,Layout & CSS
+Core,Layout: Ruby,Layout & CSS
+Core,Layout: Scrolling and Overflow,Layout & CSS
+Core,Layout: Tables,Layout & CSS
+Core,Layout: Text and Fonts,Layout & CSS
+Core,MFBT,Platform Internals
+Core,Machine Learning: Frontend,Built-in Tools & AI
+Core,Machine Learning: General,Built-in Tools & AI
+Core,Machine Learning: On Device,Built-in Tools & AI
+Core,MathML,Layout & CSS
+Core,Memory Allocator,Platform Internals
+Core,Networking,Networking
+Core,Networking: Cache,Networking
+Core,Networking: Cookies,Networking
+Core,Networking: DNS,Networking
+Core,Networking: File,Networking
+Core,Networking: HTTP,Networking
+Core,Networking: JAR,Networking
+Core,Networking: Proxy,Networking
+Core,Networking: WebSockets,Networking
+Core,Panning and Zooming,Graphics
+Core,Performance Engineering,Platform Internals
+Core,Performance: General,Platform Internals
+Core,Performance: Memory,Platform Internals
+Core,Performance: Navigation,Platform Internals
+Core,Performance: Responsiveness,Platform Internals
+Core,Permission Manager,Privacy & Security
+Core,Preferences: Backend,Platform Internals
+Core,Print Preview,Layout & CSS
+Core,Printing: Output,Layout & CSS
+Core,Printing: Setup,Layout & CSS
+Core,Privacy: Anti-Tracking,Privacy & Security
+Core,SQLite and Embedded Database Bindings,Platform Internals
+Core,SVG,Layout & CSS
+Core,Sanitizers,Platform Internals
+Core,Security,Privacy & Security
+Core,Security: CAPS,Privacy & Security
+Core,Security: PSM,Privacy & Security
+Core,Security: Process Sandboxing,Privacy & Security
+Core,Security: RLBox,Privacy & Security
+Core,Session Restore,Browser UI
+Core,Spelling Checker: en-US Dictionary,Platform Internals
+Core,Spelling checker,Platform Internals
+Core,Storage: Bucket File System,DOM & Web APIs
+Core,Storage: Cache API,DOM & Web APIs
+Core,Storage: IndexedDB,DOM & Web APIs
+Core,Storage: Quota Manager,DOM & Web APIs
+Core,Storage: StorageManager,DOM & Web APIs
+Core,Storage: localStorage & sessionStorage,DOM & Web APIs
+Core,String,Platform Internals
+Core,Web Audio,Media & WebRTC
+Core,Web Painting,Graphics
+Core,Web Speech,Media & WebRTC
+Core,WebRTC,Media & WebRTC
+Core,WebRTC: Audio/Video,Media & WebRTC
+Core,WebRTC: Networking,Media & WebRTC
+Core,WebRTC: Signaling,Media & WebRTC
+Core,WebVR,Graphics
+Core,Widget,OS Integration
+Core,Widget: Cocoa,OS Integration
+Core,Widget: Gtk,OS Integration
+Core,Widget: Win32,OS Integration
+Core,Window Management,OS Integration
+Core,XML,DOM & Web APIs
+Core,XPCOM,Platform Internals
+Core,XPConnect,JavaScript
+Core,XSLT,DOM & Web APIs
+Core,XUL,Layout & CSS
+Core,js-ctypes,JavaScript
+Core,mozglue,Platform Internals
+Firefox,Address Bar,Browser UI
+Firefox,Bookmarks & History,Browser UI
+Firefox,Data Loss Prevention,Privacy & Security
+Firefox,Disability Access,Accessibility
+Firefox,Distributions,Browser UI
+Firefox,Downloads Panel,Browser UI
+Firefox,Enterprise Policies,"Accounts, Sync & Install"
+Firefox,File Handling,OS Integration
+Firefox,Firefox Accounts,"Accounts, Sync & Install"
+Firefox,Firefox View,Browser UI
+Firefox,Headless,Browser UI
+Firefox,IP Protection,Browser UI
+Firefox,Installer,"Accounts, Sync & Install"
+Firefox,Keyboard Navigation,Accessibility
+Firefox,Menus,Browser UI
+Firefox,Messaging System,New Tab & Messaging
+Firefox,Migration,"Accounts, Sync & Install"
+Firefox,New Tab Page,New Tab & Messaging
+Firefox,Nimbus Desktop Client,New Tab & Messaging
+Firefox,Normandy Client,Browser UI
+Firefox,PDF Viewer,Built-in Tools & AI
+Firefox,Page Info Window,Browser UI
+Firefox,Performance,Platform Internals
+Firefox,Pocket,Browser UI
+Firefox,Private Browsing,Browser UI
+Firefox,Profile Backup,"Accounts, Sync & Install"
+Firefox,Protections UI,Privacy & Security
+Firefox,Remote Settings Client,New Tab & Messaging
+Firefox,Screenshots,Built-in Tools & AI
+Firefox,Search,Browser UI
+Firefox,Security,Privacy & Security
+Firefox,Session Restore,Browser UI
+Firefox,Settings UI,Browser UI
+Firefox,Shell Integration,OS Integration
+Firefox,Sidebar,Browser UI
+Firefox,Site Identity,Browser UI
+Firefox,Site Permissions,Privacy & Security
+Firefox,Sync,"Accounts, Sync & Install"
+Firefox,Tabbed Browser,Browser UI
+Firefox,Tabbed Browser: Split View,Browser UI
+Firefox,Tabbed Browser: Tab Groups,Browser UI
+Firefox,Theme,Browser UI
+Firefox,Toolbars and Customization,Browser UI
+Firefox,Tours,Browser UI
+Firefox,Translations,Built-in Tools & AI
+Firefox,Web Apps,Browser UI
+Firefox,WebPayments UI,Browser UI
+Firefox,about:logins,Privacy & Security
